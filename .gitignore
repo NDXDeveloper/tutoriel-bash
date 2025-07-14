@@ -1,0 +1,51 @@
+# Fichiers temporaires et de sauvegarde
+*~
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Fichiers de log
+*.log
+logs/
+
+# Fichiers de sortie générés par les scripts
+output/
+results/
+*.out
+
+# Fichiers de configuration locaux
+config.local
+.env
+.env.local
+
+# Répertoires de travail temporaires
+temp/
+tmp/
+work/
+
+# Fichiers exécutables générés (optionnel selon vos besoins)
+# Décommentez si vous ne voulez pas versionner les binaires
+# *.exe
+# *.bin
+
+# Fichiers spécifiques à l'éditeur
+.vscode/
+.idea/
+*.sublime-*
+
+# Fichiers de données sensibles ou temporaires
+data/
+cache/
+*.bak
+
+# Fichiers de test temporaires
+test_output/
+test_results/
+
+# Archives
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
